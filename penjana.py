@@ -9,7 +9,7 @@ from io import BytesIO
 
 # --- 1. CONFIGURATION ---
 st.set_page_config(page_title="Penjana RPH Bahasa Melayu", layout="wide")
-st.title("🎓 PENJANA RANCANGAN PENGAJARAN HARIAN (RPH) BAHASA MELAYU")
+st.title("🎓 PENJANA RANCANGAN PENGAJARAN HARIAN (RPH)")
 
 # --- MAIN PAGE CONFIGURATION & USER API KEY BAR (AT THE VERY TOP) ---
 user_api_key = st.text_input(
